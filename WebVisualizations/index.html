@@ -16,7 +16,7 @@
 <body>
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Latitude</a>
+            <a class="navbar-brand" href="index.html">Latitude</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,10 +34,10 @@
                              Plots
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Plot1</a>
-                            <a class="dropdown-item" href="#">Plot2</a>
-                            <a class="dropdown-item" href="#">Plot3</a>
-                            <a class="dropdown-item" href="#">Plot4</a>
+                            <a class="dropdown-item" href="maxtemp.html">Plot1</a>
+                            <a class="dropdown-item" href="humidity.html">Plot2</a>
+                            <a class="dropdown-item" href="cloudiness.html">Plot3</a>
+                            <a class="dropdown-item" href="windspeed.html">Plot4</a>
                         </div>
                     </li>
                 </ul>
@@ -49,17 +49,34 @@
             <div class="col-lg-8 col-sm-12">    
     
                 <h1>Summary: Lattitude vs. X</h1>
-                <hr />
+                <hr>
                 <div>
-                    <img style="float: left;" src="../WebVisualizations/Resources/assets/images/Fig1.png" height="160" width="160" />
+                    <img style="float: left;" src="../WebVisualizations/Resources/assets/images/Fig1.png" height="200" width="200" alt="Figure 1" />
                     <p>
                         The purpose of the project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
                     </p>
                     <p>
-                        After assembling the datasaetm we used Matplotlib to plot varius aspects of the weather vs latitude.  Factors we looked at included tempearture, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as
+                        After assembling the datasaetm we used Matplotlib to plot various aspects of the weather vs latitude.  Factors we looked at included tempearture, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as
                         explanations and descriptions of any trends and correlations witnessed.
                     </p>
                 </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+
+                <h2>Visualizations</h2>
+                <hr>
+                <div class= "col-md-6 col-sm-3">
+                    <img id ="pic1" src="../WebVisualizations/Resources/assets/images/Fig1.png" alt="maxtemp" height="150" width="150"> 
+                </div> 
+                <div class= "col-md-6 col-sm-3">
+                    <img id ="pic2" src="../WebVisualizations/Resources/assets/images/Fig2.png" alt="humidity" height="150" width="150">
+                </div> 
+                <div class= "col-md-6 col-sm-3">                            
+                    <img id = "pic3" src="../WebVisualizations/Resources/assets/images/Fig3.png" alt="cloudiness" height="150" width="150">
+                </div> 
+                <div class= "col-md-6 col-sm-3">
+                    <img id = "pic4" src="../WebVisualizations/Resources/assets/images/Fig4.png" alt="windspeed" height="150" width="150">
+                </div> 
             </div>
         </div>
     </div>
