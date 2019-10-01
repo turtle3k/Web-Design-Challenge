@@ -1,0 +1,57 @@
+/* #demoFont {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 19px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    } */
+
+body {
+    background-color:  #b3e5fc;
+}
+
+.navbar-brand {
+    background:#b3e5fc;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+}
+
+h1 {
+    /* Put a 15-pixel margin at the bottom of the heading. */
+    margin-bottom: 15px;
+    /* Change the size of your font to 60 pixels high. */
+    /*font-size: 60px;*/
+    /* This will color the heading font white. */
+    color: navy;
+    /* Align the text to the center of its enclosing element (e.g. div). */
+    /*text-align: center;*/
+    /* Underline the text. */
+    /*text-decoration: underline;*/
+    /* The background of the heading element will now be black. */
+    /*background-color: black;*/
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+}
+
+h2 {
+    color: navy;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+}
+
+h2.comparison {
+    color: navy;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+    text-align: center;
+}
