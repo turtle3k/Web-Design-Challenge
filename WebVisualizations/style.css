@@ -89,3 +89,21 @@ h2.comparison {
     background: silver;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .navbar-brand {
+        background: lightblue;
+        /* margin-left: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 700; */
+    }
+
+  }
